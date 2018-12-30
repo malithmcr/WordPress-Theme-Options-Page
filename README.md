@@ -10,13 +10,13 @@ To use it, simply copy this script into either your functions.php file, or a sub
 <h3> Usage </h3>
  <p>
 Once you have set your options, you can access them by doing: </p>
-<pre>
-	<code>
-	<?php 
+
+```php
+<?php
 	$options = get_options($plugin_options);
 	echo $options[key]
-	?> 	
-	</code>
-</pre>
+?>
+```
+    
 <p>Just replace "key" with the name of the options that you want. To view all the keys that are available, call print_r on $options: print_r($options). </p>
 
